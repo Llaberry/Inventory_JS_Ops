@@ -33,10 +33,10 @@ jobs:
           #--------------#
           sudo apt update -y
           sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
-          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rsync software-properties-common texinfo util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rsync software-properties-common texinfo tmux util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
           # Do again, sometimes fails
           sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
-          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rsync software-properties-common texinfo util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rsync software-properties-common texinfo tmux util-linux wget -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
         continue-on-error: true
 
       - name: Set TZ to (Asia/Kathmandu)
