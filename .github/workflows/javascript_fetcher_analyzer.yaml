@@ -4,8 +4,8 @@ name: 🏗️ Fetch | Analyze JS Files
 
 on:
   workflow_dispatch: # Whenever manually run from actions-tab
-  schedule:
-    - cron: "15 13 * * *" #( 01:15 PM UTC --> 07:00 PM Evening )
+  #schedule:
+  #  - cron: "15 13 * * *" #( 01:15 PM UTC --> 07:00 PM Evening )
 #------------------------------------------------------------------------------------#  
 env:
   # DO NOT MODIFY ANYTHING ELSE
